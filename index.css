@@ -1,0 +1,68 @@
+body {
+    background-color: #03031f;
+    background-image: url("https://images.unsplash.com/photo-1491956687424-696bf40afc87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container {
+    margin: auto;
+    background-color: hsl(0, 0%, 0%, 0.5);
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#increment-btn {
+    background: #42f5f2;
+    color: #040621;
+}
+
+#increment-btn:active, #increment-btn:focus-visible{    
+    box-shadow: 0 0 10px 2px #42f5f2;    
+}
+
+#save-btn {
+    background: #ec42f5;
+    color: #200421;
+}
+
+#save-btn:active, #save-btn:focus-visible {
+    box-shadow: 0 0 10px 2px #ec42f5;    
+}
